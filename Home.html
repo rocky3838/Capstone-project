@@ -4,19 +4,44 @@
 
 <head>
 
+<link rel="stylesheet" href="style.css">
+
     <title>Home</title>
 
 </head>
 
-
+<link rel="stylesheet" href="style.css">  
 <style>
+
+.hero {
+  background: url('naturalgraphy-front-view-car-racing-free-photo.jpg') no-repeat center center/cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  color: white;
+  text-shadow: 4px 2px 4px #000;
+  font-size: 24px;
+}
 
 body {
   margin: 0;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+  * {
 
-.topnav {
+margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+font-family: 'Arial', sans-serif;
+
+}
+
+
+nav {
 overflow: hidden;
   background-color: #fcbebe;
 }
@@ -34,17 +59,114 @@ overflow: hidden;
   color: rgb(110, 26, 26);
 }
 
+.section {
+
+padding: 40px 20px;
+
+max-width: 1000px;
+
+margin: 0 auto;
+
+}
+
+ .car_cards .car-gallery{
+
+display: flex;
+
+flex-wrap: wrap;
+
+gap: 20px;
+
+justify-content: center;
+
+background-color: #f78e8e;
+
+}
+
+.car_card {
+
+background-color: rgb(245, 108, 108);
+
+border-radius: 8px;
+
+box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+width: 300px;
+
+padding: 15px;
+
+text-align: center;
+
+}
+
+.car_card img {
+
+width: 100%;
+
+border-radius: 5px;
+
+}
+
 </style>
 
 
 <body>
-
+<nav>
+<h1 class="logo">Elite drive</h1>
 <div class="topnav">
 <a href="Home.html">Home</a>
 <a href="About.html">About </a>
 <a href="Contact.html">Contact us</a>
 <a href="Gallery.html">Gallery</a>
 </div>
+</nav>
+
+<section id="home" class="hero">
+
+<p>Unleash the road. Dominate the drive. </p>
+
+</section>
+
+<section class="section car-gallery" id="cars">
+Our Cars, Premium and furnished as ever..
+<div class="  Car_cards">
+    
+<div class="  Car_card">
+
+<img src="ai-designed-volkswagen-sedan-looks-just-like-a-taycan-based-ev-rather-than-an-id7_8.jpg" width="300"
+  height="300">
+
+    <h3>Sporty Sedan</h3>
+    <p>Experience the thrill of driving with our Sporty Sedan, combining performance and style.</p>
+  </div>
+
+  <div class=" Car_card">
+    
+<img src="Copilot_20250902_171200.png" width="300" height="200">
+
+    <h3>Luxury SUV</h3>
+    <p>Travel in comfort and elegance with our Luxury SUV, perfect for any adventure.</p>
+  </div>
+
+  <div class=" Car_card">
+    
+<img src="download.webp" width="300" height="200">
+
+    <h3>Electric Hatchback</h3>
+    <p>Go green with our Electric Hatchback, offering efficiency without compromising on fun.</p>
+
+
+  </div>
+</div>
+</section>
+
+
+<footer>
+
+<p><p>&copy; 2025 Elite drive. All rights reserved.</p></p>
+
+</footer>
+
 
 </body>
 
